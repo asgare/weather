@@ -1,0 +1,59 @@
+html {
+    direction: rtl;
+    margin: 0 auto;
+    font-family: Tahoma;
+    font-weight: 0;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+header a {
+    font-family: Tahoma;
+    font-size: 1.3rem;
+    font-weight: 0;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+h1 {
+    color: grey;
+}
+
+img {
+    width: 450px;
+}
+
+header {
+    margin: 0;
+    border-bottom:  rgb(190, 181, 185) 2px solid;
+    padding-bottom: 5px;
+}
+
+footer {
+    border-top: rgb(155, 150, 152) 1px solid;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 8px;
+}
