@@ -24,7 +24,7 @@ weatherForm.addEventListener('submit' , ( e )=>{
     messageOne.textContent = 'درحال لود شدن...'
     messageTwo.textContent = ''
 
-    fetch('http://localhost:3000/weather?address=' + searchValue.value )
+    fetch('/weather?address=' + searchValue.value )
     .then( ( response )=> {
         response.json()
         .then( ( data ) => {
