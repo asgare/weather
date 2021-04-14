@@ -4,8 +4,8 @@ const app = express()
 const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
-const port = process.ENV.PORT || 3000
-
+const port = process.env.PORT || 3000
+//env with lowercase 
 
 const publicDirectoryPath = path.join( __dirname , '..' , 'public' )
 const viewsPath = path.join( __dirname , '..' , 'templates' , 'views' )
